@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réprographie</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="titre">REPROGRAPHIE SERVICE</h1>
+        <div class="row">
+             <div class="col-lg-4 mx-auto text-center text-white bg-primary hauteurRow">
+               <label for="exampleInputEmail1" class="form-label txtLabel">0.10€ la copie - Nombre de copies souhaité ?</label>
+               <input type="number" class="form-control-lg" id="quantite" min="1" max="10000">
+               <buton type="submit" class="btn btn-impot" id="bouton">Valider</buton>
+               <div class="carte">Veuillez régler la somme de: </div>
+               <div class="card">
+                   <div class="card-corps"></div>
+                    <div id="message"></div>
+               </div>
+             </div>
+        </div>
+    </div>
+         
+      
+     
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+</html>

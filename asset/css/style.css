@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    padding:0;
+    background: url(../img/copieur.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    font-family: serif;
+}
+.titre {
+    margin-top: 1em;
+    margin-left: 25.5%;
+    margin-right: 19%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4vw;
+    color: white;
+}
+.txtLabel, .carte{
+    font-size: 1.5vw;
+}
+.hauteurRow {
+    height: 20vw;
+    margin-top: 6vw;
+    padding-top: 2vw;
+    border-radius: 5px;
+}
+#bouton {
+    background-color: lightgreen;
+    color: white;
+}
+.carte {
+    margin-top: 1vw;
+}
+#quantite {
+    border-top: lightgrey;
+    border-left: lightgrey;
+    border-right: lightgrey;
+    border-bottom: lightgrey;
+}
+#message {
+    color: black;
+    font-size: 2vw;
+}
+.card-corps {
+    flex: 1 1 auto;
+    /* padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x); */
+    color: var(--bs-card-color);
+}
